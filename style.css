@@ -261,3 +261,49 @@ footer{
 .footer__link{
     padding: 0 16px;
 }
+
+/* 
+Responsive 
+*/
+@media (max-width: 10240px) {
+    .section__description--para {
+        font-size: 20px;
+    }
+}
+/* 
+Small Devices 
+*/
+@media (max-width: 768px) {
+    a{
+        font-size: 16px;
+    }
+    .course{
+        gap: 4px;
+    }
+    .course__title{
+        margin-left: 0px;
+        font-size: 40px;
+    }
+    .hero{
+        flex-direction: column;
+    }
+    .hero__wrapper{
+        max-width: 500px;
+    }
+    .hero__description{
+        margin-left: 0px;
+    }
+    h1{
+        font-size: 48px;
+    }
+    .section__description{
+        flex-direction: column;        
+    }
+    .section__description--wrapper{
+        width: 100%;
+        padding: 0 8px;
+    }
+    input,textarea{
+        width: 400px;
+    }
+}
